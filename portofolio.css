@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('jawa\ 5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border-bottom: 2px solid #ccc;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: #003366;
+}
+
+.logo span {
+    color: #00aaff;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navigation ul li a:hover {
+    color: #00aaff;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.intro-text {
+    max-width: 600px;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.intro-text span {
+    color: #00aaff;
+}
+
+.intro-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+.photo img {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    color:black;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    padding: 12px 24px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
